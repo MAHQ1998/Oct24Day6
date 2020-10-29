@@ -44,7 +44,7 @@ public class DatabaseConnectivity {
             // Try to store into :
             //  - Hashmap<String,String>
             //  - Hashmap<Integer, Hashmap<Integer,String>>
-            //HashMap <Integer,String>
+            //HashMap <String,String> studentData = new HashMap<>();
 
 
 
