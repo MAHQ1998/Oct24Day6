@@ -1,0 +1,41 @@
+Open the file
+Read line by line until the end of the last line.
+
+1, create file reader:-
+File file = new File("Users/shadman/Desktop/holidays.txt");
+// import java.io.file(input output file) and pass in the path of the file
+//we can get the file from computer or we can create in Intellij
+
+2. read the first line by using scanner:-
+
+Scanner scan = new Scanner(file);// import java.util.scanner and when the read come out add
+                                 // file not found exception by add throw decoration
+                                 // Than print
+ System.out.println(scan.nextLine());// as we run we get ist line of the text
+
+ 3. read all line we can use while loop:-
+
+ while(scan.hasNext()) {  //use while loop to read all the line
+ System.out.println(scan.nextLine());
+  }
+
+  ----------------------------------------
+  >>export that to a new file to desktop<<
+  >>write in to new file in IDEA<<
+  >>export in to empty file in IDEA<<<
+
+
+  File file = new File("/Users/shadman/Desktop/holidays.txt");
+  Scanner scan = new Scanner(file);
+  String fileContent="";
+  while(scan.hasNext()) {
+  fileContent = fileContent.concat(scan.nextLine()+"\n");
+    }
+    FileWriter writer = new FileWriter("/Users/shadman/Desktop/newfile.txt");
+            writer.write(fileContent);
+            writer.close();
+
+
+
+
+
