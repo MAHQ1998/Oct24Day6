@@ -1,7 +1,8 @@
 package datastructered;
 
 import java.util.HashMap;
-
+//Java class library offers over 4400 pre build classes from Oracle that we can use in our JAVA program.
+//such as ArrayList, Hash maps, Stacks ect..
 // difference between ArrayList/ Map
 // ArrayList we can store 1 data, in Map we can store 2 Data(key and value)
 //List we can call value based in Index Number and Map we can call the value based on Key/Value

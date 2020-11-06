@@ -1,0 +1,18 @@
+The main() method
+Every java application program must include the main() method. This is starting  point for the interpreter to begin the
+execution of the program. A Java application  can have any number of classes but only one of them must include a
+main method  to initiate the execution.
+
+Public
+The Keyword public is an access specifier that declares the main method  as unprotected and therefore making it to
+accessible to all other classes.
+Static
+The keyword static which declares this method as one that belongs to the  entire Class and not a part of any
+Objects of the class. The main must always be declared be declared as static since the interpreter uses
+this method before any objects are created.
+
+Void : The type modifier void states that the main method does not return any value.
+All parameters to a method are declared inside a pair of parentheses. Here,
+String args[] declares a parameter named args, which contains an array of objects  Of the class type String.
+
+

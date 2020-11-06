@@ -10,8 +10,8 @@ public class BasicArray {
         }
         int [] randomNumbers = {566,847,984,3839};
 
-        for( int x =0; x<4; x++){
-            System.out.println(randomNumbers[x]);
+        for( int i =0; i<4; i++){
+            System.out.println(randomNumbers[i]);
         }
         Object[] allKindOfVariable = { 11372, "Jackson Heights", false,'x'};
         System.out.println(allKindOfVariable[3]);

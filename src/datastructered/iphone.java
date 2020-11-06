@@ -22,7 +22,8 @@ public class iphone { //singleton practice--single instance of a class
     }
 
     public String iphoneModel1(){
-        return "iphone ME";
+
+        return "iphone 11";
     }
 
 

@@ -1,0 +1,24 @@
+There are four main features of OOPS.
+1) Encapsulation
+2) Abstraction
+3) Inheritance
+4) Polymorphism
+
+Encapsulation (Information Hiding) : Objects provide the benefit of information hiding.
+Object Oriented programming allows you to encapsulate data that you do not  want users of the object to access.
+Typically, attributes of a class are encapsulated.
+
+Abstraction : Abstraction allows us to focus on only those parts of an object that concern us.
+All the details that are unnecessary to users are encapsulated, leaving only a simple interface to interact with.
+overriding users with only what they need to know is known as abstraction.
+Abstraction lets us ignore the irrelevant details and concentrate on the essentials.
+
+Inheritance : Inheritance is the process by which objects of one class acquire the  properties of objects of another class.
+Inheritance supports the concept of  hierarchical classification. In OOP, the concept of inheritance provides the idea of
+reuseability. This means that we can add additional features to an existing class  without modifying it. This is possible by deriving a new class from the existing one.  The new class will have the combined features of both the classes.
+
+Polymorphism : Polymorphism is having one Interface but with the ability to have multiple implementations.
+It is the ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a
+parent class reference is used to refer to a child class object.
+
+

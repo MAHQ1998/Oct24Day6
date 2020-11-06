@@ -7,11 +7,12 @@ public class HashSetPractice {
     public static void main(String[] args) {
         // Hash set only contain unique data
         // Won't print or perform duplicate data
-        // Don't have get
+        // Don't have get in order to get "get" we need to use Iterator
 
         HashSet<String> county = new HashSet<>();
         county.add("Middlesex");
         county.add("Sussex");
+        county.add("Bergen");
         county.add("Bergen");
 
         System.out.println(county);

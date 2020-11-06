@@ -34,6 +34,12 @@ public class DatabaseConnectivity {
 
             System.out.println(id + " " + name + " " + location);
 
+//            HashMap<Integer,HashMap<String ,String>> studentA = new HashMap<>();
+//            studentA.put(id,"name","location");
+//            studentA.put(name);
+//            studentA.put(location);
+//
+
             ArrayList<Object> student = new ArrayList<>();
             student.add(id);
             student.add(name);
@@ -44,9 +50,6 @@ public class DatabaseConnectivity {
             // Try to store into :
             //  - Hashmap<String,String>
             //  - Hashmap<Integer, Hashmap<Integer,String>>
-            //HashMap <String,String> studentData = new HashMap<>();
-
-
 
         }
         System.out.println(studentData);

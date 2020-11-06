@@ -39,6 +39,13 @@ public class Int_Double_Boolean {
 		
 		boolean itisfallnow = true;
 		System.out.println(itisfallnow);
+
+		double x = 1.2;
+		double y = 2.5;
+		double z = x+y;
+
+
+		}
 		
 		
 		
@@ -49,4 +56,4 @@ public class Int_Double_Boolean {
 		
 	}
 
-}
+
